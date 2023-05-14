@@ -2,34 +2,35 @@
 
 -- Zoologicos
 INSERT INTO Zoologico (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero, Num_especies_en_posesion, Num_animales_en_posesion)
-VALUES (1, 518748519, 'Pixel Perfect Design Co.', 912601332, 'cherylbrown2222@hotmail.com', 'Santiago', 'BoulevardTriunfador', 199, 14, 20);
+VALUES (1, 518748519, 'Faunalandia', 912601332, 'cherylbrown2222@hotmail.com', 'Santiago', 'BoulevardTriunfador', 199, 14, 20);
 
 INSERT INTO Zoologico (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero, Num_especies_en_posesion, Num_animales_en_posesion)
-VALUES (2, 584046403, 'NextGen Innovations', 486401950, 'johndoe1234@gmail.com', 'Santiago', 'CalleValentia', 157, 7, 31);
+VALUES (2, 584046403, 'Zootrópolis', 486401950, 'johndoe1234@gmail.com', 'Santiago', 'CalleValentia', 157, 7, 31);
 
 INSERT INTO Zoologico (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero, Num_especies_en_posesion, Num_animales_en_posesion)
-VALUES (3, 585555152, 'Spark Innovations', 252168047, 'lisawilliams5555@yahoo.com', 'Concepcion', 'AvenidaTriunfal', 222, 0, 12);
+VALUES (3, 585555152, 'Animalia Park', 252168047, 'lisawilliams5555@yahoo.com', 'Concepcion', 'AvenidaTriunfal', 222, 0, 12);
 
 INSERT INTO Zoologico (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero, Num_especies_en_posesion, Num_animales_en_posesion)
 VALUES (4, 599379991, 'Visionary Ventures', 154705690, 'amandawatson456@gmail.com', 'Copiapo', 'CalleDestino', 67, 2, 0);
 
 INSERT INTO Zoologico (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero, Num_especies_en_posesion, Num_animales_en_posesion)
-VALUES (5, 741780753, 'Prime Business Solutions', 749034968, 'marioandretti55@aol.com', 'Concepcion', 'AvenidaMaravilla', 167, 15, 9);
+VALUES (5, 741780753, 'Safari World', 749034968, 'marioandretti55@aol.com', 'Concepcion', 'AvenidaMaravilla', 167, 15, 9);
 
 INSERT INTO Zoologico (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero, Num_especies_en_posesion, Num_animales_en_posesion)
-VALUES (6, 519394643, 'TechnoMax Solutions', 411374888, 'madisonroberts2222@gmail.com', 'Linares', 'CalleValentia', 180, 9, 30);
+VALUES (6, 519394643, 'Mundo Salvaje', 411374888, 'madisonroberts2222@gmail.com', 'Linares', 'CalleValentia', 180, 9, 30);
 
 INSERT INTO Zoologico (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero, Num_especies_en_posesion, Num_animales_en_posesion)
-VALUES (7, 631246178, 'Zenith Consulting Group', 481524874, 'danielramirez2222@yahoo.com', 'Angol', 'PlazaLibertad', 155, 7, 4);
+VALUES (7, 631246178, 'Parque Faunístico', 481524874, 'danielramirez2222@yahoo.com', 'Angol', 'PlazaLibertad', 155, 7, 4);
 
 INSERT INTO Zoologico (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero, Num_especies_en_posesion, Num_animales_en_posesion)
-VALUES (8, 029002805, 'Prime Business Solutions', 531799084, 'jacobjohnson1111@aol.com', 'Angol', 'AvenidaTriunfal', 117, 0, 21);
+VALUES (8, 029002805, 'FaunaLand', 531799084, 'jacobjohnson1111@aol.com', 'Angol', 'AvenidaTriunfal', 117, 0, 21);
 
 INSERT INTO Zoologico (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero, Num_especies_en_posesion, Num_animales_en_posesion)
-VALUES (9, 175388071, 'Stellaris Enterprises', 169671221, 'marioandretti55@aol.com', 'Angol', 'BoulevardTriunfador', 95, 0, 5);
+VALUES (9, 175388071, 'ZooMundo', 169671221, 'marioandretti55@aol.com', 'Angol', 'BoulevardTriunfador', 95, 0, 5);
 
 INSERT INTO Zoologico (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero, Num_especies_en_posesion, Num_animales_en_posesion)
-VALUES (10, 217631156, 'QuantumLeap Enterprises', 462233594, 'timothyjohnson7777@yahoo.com', 'Santiago', 'PlazaLibertad', 122, 7, 10);
+VALUES (10, 217631156, 'Parque Animalia', 462233594, 'timothyjohnson7777@yahoo.com', 'Santiago', 'PlazaLibertad', 122, 7, 10);
+
 
 -- Especies
 INSERT INTO Especie (Nombre_Especie, Clase, Orden, Familia, Genero, Dieta, Longevidad, Largo, Alto, Ancho, Envergadura, Estado_de_conservacion, Nivel_de_agresividad, Ambiente_natural, Peso, Inicio_epoca_de_apareamiento, Termino_epoca_de_apareamiento)
@@ -58,6 +59,372 @@ VALUES ('Kinkajú', 'Crustacea', 'Primates', 'Accipitridae', 'Gorilla', 'Nectar�
 
 INSERT INTO Especie (Nombre_Especie, Clase, Orden, Familia, Genero, Dieta, Longevidad, Largo, Alto, Ancho, Envergadura, Estado_de_conservacion, Nivel_de_agresividad, Ambiente_natural, Peso, Inicio_epoca_de_apareamiento, Termino_epoca_de_apareamiento)
 VALUES ('Ibis escarlata', 'Gastropoda', 'Hymenoptera', 'Hominidae', 'Pantherinae', 'Carnívoros', 12, 9.976, 9.487, 0.906, 7.551, 'CR', 5, 'Montañas', 35, '2023-3-26 00:00:00.000', '2023-12-28 00:00:00.000');
+
+
+-- Proveedor
+INSERT INTO Proveedor (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero)
+VALUES (1, '460580360', 'Swiftfire Innovations', 22, 'rebeccasanchez2222@yahoo.com', 'Dalcahue', 'PaseoTriunfo', 22);
+
+INSERT INTO Proveedor (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero)
+VALUES (2, '481388856', 'Peak Performance Solutions.', 198, 'jennifermitchell6666@yahoo.com', 'Cartagena', 'CaminoMisterioso', 198);
+
+INSERT INTO Proveedor (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero)
+VALUES (3, '691109292', 'Stellar Enterprises', 154, 'johncampbell8888@yahoo.com', 'Colina', 'CalleValentia', 154);
+
+INSERT INTO Proveedor (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero)
+VALUES (4, '593350132', 'Silverwind Enterprises', 357, 'oliviamiller7777@hotmail.com', 'Cerro Navia', 'PaseoAventura', 357);
+
+INSERT INTO Proveedor (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero)
+VALUES (5, '979769932', 'Blue Horizon Co.', 75, 'michealhill1111@aol.com', 'Lo Espejo', 'BoulevardIncreible', 75);
+
+INSERT INTO Proveedor (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero)
+VALUES (6, '219054810', 'Starlight Systems', 392, 'marioandretti55@aol.com', 'Chimbarongo', 'AvenidaFuerza', 392);
+
+INSERT INTO Proveedor (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero)
+VALUES (7, '435181525', 'Quantum Leap Enterprises', 201, 'johndoe1234@gmail.com', 'La Serena', 'SenderoSerenidad', 201);
+
+INSERT INTO Proveedor (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero)
+VALUES (8, '54941186K', 'Horizon Heights Inc.', 325, 'ryanjones4444@gmail.com', 'Coronel', 'CaminoEsperanza', 325);
+
+INSERT INTO Proveedor (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero)
+VALUES (9, '500384402', 'Skytech Solutions', 271, 'annalopez777@gmail.com', 'Arica', 'CaminoEsperanza', 271);
+
+INSERT INTO Proveedor (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero)
+VALUES (10, '993773634', 'Oceanview Ventures', 16, 'sarahsmith99@yahoo.com', 'Futaleufú', 'CarreteraDestino', 16);
+
+
+-- Recintos
+INSERT INTO Recinto (ID_Recinto, Ancho, Largo, Alto)
+VALUES (1, 47, 27, 21);
+
+INSERT INTO Recinto (ID_Recinto, Ancho, Largo, Alto)
+VALUES (2, 49, 3, 57);
+
+INSERT INTO Recinto (ID_Recinto, Ancho, Largo, Alto)
+VALUES (3, 16, 30, 74);
+
+INSERT INTO Recinto (ID_Recinto, Ancho, Largo, Alto)
+VALUES (4, 29, 3, 85);
+
+INSERT INTO Recinto (ID_Recinto, Ancho, Largo, Alto)
+VALUES (5, 21, 24, 14);
+
+INSERT INTO Recinto (ID_Recinto, Ancho, Largo, Alto)
+VALUES (6, 41, 21, 73);
+
+INSERT INTO Recinto (ID_Recinto, Ancho, Largo, Alto)
+VALUES (7, 14, 3, 64);
+
+INSERT INTO Recinto (ID_Recinto, Ancho, Largo, Alto)
+VALUES (8, 16, 21, 33);
+
+INSERT INTO Recinto (ID_Recinto, Ancho, Largo, Alto)
+VALUES (9, 48, 4, 42);
+
+INSERT INTO Recinto (ID_Recinto, Ancho, Largo, Alto)
+VALUES (10, 19, 23, 13);
+
+
+-- Animales
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (1, 'Hembra', 'Esterilizado', '2023-1-20 00:00:00.000', '2023-12-22 00:00:00.000', 5, 5, 'Narval');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (2, 'Hembra', 'No esterilizado', '2023-6-24 00:00:00.000', '2023-11-21 00:00:00.000', 8, 10, 'Narval');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (3, 'Macho', 'Parcialmente', '2023-5-6 00:00:00.000', '2023-11-30 00:00:00.000', 2, 6, 'Narval');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (4, 'Macho', 'Esterilizado', '2023-4-27 00:00:00.000', '2023-10-4 00:00:00.000', 3, 9, 'Narval');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (5, 'Macho', 'No esterilizado', '2023-1-13 00:00:00.000', '2023-12-24 00:00:00.000', 8, 9, 'Narval');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (6, 'Macho', 'Parcialmente', '2023-3-30 00:00:00.000', '2023-10-7 00:00:00.000', 5, 2, 'Narval');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (7, 'Hembra', 'No esterilizado', '2023-5-27 00:00:00.000', '2023-8-30 00:00:00.000', 3, 1, 'Narval');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (8, 'Hembra', 'No esterilizado', '2023-6-18 00:00:00.000', '2023-8-3 00:00:00.000', 10, 3, 'Narval');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (9, 'Hembra', 'Esterilizado', '2023-3-14 00:00:00.000', '2023-9-25 00:00:00.000', 3, 6, 'Narval');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (10, 'Macho', 'Esterilizado', '2023-6-29 00:00:00.000', '2023-9-16 00:00:00.000', 2, 6, 'Narval');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (11, 'Macho', 'No esterilizado', '2023-4-17 00:00:00.000', '2023-12-10 00:00:00.000', 2, 8, 'Narval');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (12, 'Hembra', 'No esterilizado', '2023-5-28 00:00:00.000', '2023-10-28 00:00:00.000', 6, 9, 'Narval');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (13, 'Macho', 'Parcialmente', '2023-5-31 00:00:00.000', '2023-11-13 00:00:00.000', 5, 10, 'Puma');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (14, 'Hembra', 'Parcialmente', '2023-3-19 00:00:00.000', '2023-11-24 00:00:00.000', 3, 3, 'Puma');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (15, 'Hembra', 'No esterilizado', '2023-6-30 00:00:00.000', '2023-11-3 00:00:00.000', 10, 4, 'Puma');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (16, 'Hembra', 'No esterilizado', '2023-3-4 00:00:00.000', '2023-7-28 00:00:00.000', 3, 5, 'Puma');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (17, 'Hembra', 'Parcialmente', '2023-2-28 00:00:00.000', '2023-10-20 00:00:00.000', 4, 3, 'Puma');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (18, 'Hembra', 'Esterilizado', '2023-1-4 00:00:00.000', '2023-9-19 00:00:00.000', 1, 8, 'Puma');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (19, 'Hembra', 'Parcialmente', '2023-5-3 00:00:00.000', '2023-11-10 00:00:00.000', 7, 6, 'Puma');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (20, 'Macho', 'Parcialmente', '2023-6-29 00:00:00.000', '2023-8-16 00:00:00.000', 4, 2, 'Puma');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (21, 'Macho', 'Parcialmente', '2023-6-20 00:00:00.000', '2023-7-14 00:00:00.000', 10, 1, 'Puma');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (22, 'Hembra', 'No esterilizado', '2023-3-5 00:00:00.000', '2023-12-21 00:00:00.000', 6, 10, 'Puma');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (23, 'Hembra', 'Esterilizado', '2023-6-30 00:00:00.000', '2023-11-18 00:00:00.000', 10, 10, 'Puma');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (24, 'Hembra', 'Parcialmente', '2023-3-23 00:00:00.000', '2023-9-28 00:00:00.000', 6, 2, 'Puma');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (25, 'Hembra', 'Esterilizado', '2023-1-27 00:00:00.000', '2023-10-22 00:00:00.000', 4, 7, 'Uakari');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (26, 'Hembra', 'No esterilizado', '2023-1-3 00:00:00.000', '2023-12-19 00:00:00.000', 3, 7, 'Uakari');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (27, 'Hembra', 'No esterilizado', '2023-6-21 00:00:00.000', '2023-7-25 00:00:00.000', 4, 7, 'Uakari');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (28, 'Hembra', 'Esterilizado', '2023-3-15 00:00:00.000', '2023-10-9 00:00:00.000', 8, 8, 'Uakari');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (29, 'Macho', 'Esterilizado', '2023-5-3 00:00:00.000', '2023-7-21 00:00:00.000', 10, 9, 'Uakari');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (30, 'Macho', 'No esterilizado', '2023-4-18 00:00:00.000', '2023-12-17 00:00:00.000', 2, 2, 'Uakari');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (31, 'Hembra', 'No esterilizado', '2023-4-20 00:00:00.000', '2023-10-6 00:00:00.000', 8, 2, 'Uakari');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (32, 'Macho', 'No esterilizado', '2023-3-4 00:00:00.000', '2023-12-8 00:00:00.000', 9, 3, 'Uakari');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (33, 'Hembra', 'Esterilizado', '2023-5-21 00:00:00.000', '2023-9-19 00:00:00.000', 1, 2, 'Uakari');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (34, 'Hembra', 'No esterilizado', '2023-2-6 00:00:00.000', '2023-8-12 00:00:00.000', 8, 9, 'Uakari');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (35, 'Hembra', 'Parcialmente', '2023-4-29 00:00:00.000', '2023-7-8 00:00:00.000', 4, 9, 'Uakari');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (36, 'Macho', 'Esterilizado', '2023-4-3 00:00:00.000', '2023-7-26 00:00:00.000', 1, 5, 'Uakari');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (37, 'Macho', 'Esterilizado', '2023-6-9 00:00:00.000', '2023-8-20 00:00:00.000', 3, 5, 'Zarigüeya');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (38, 'Macho', 'Parcialmente', '2023-3-24 00:00:00.000', '2023-11-12 00:00:00.000', 8, 3, 'Zarigüeya');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (39, 'Hembra', 'No esterilizado', '2023-6-22 00:00:00.000', '2023-7-20 00:00:00.000', 5, 7, 'Zarigüeya');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (40, 'Hembra', 'Esterilizado', '2023-5-8 00:00:00.000', '2023-10-7 00:00:00.000', 1, 10, 'Zarigüeya');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (41, 'Macho', 'Parcialmente', '2023-2-18 00:00:00.000', '2023-12-11 00:00:00.000', 4, 6, 'Zarigüeya');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (42, 'Macho', 'Esterilizado', '2023-3-18 00:00:00.000', '2023-10-11 00:00:00.000', 8, 1, 'Zarigüeya');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (43, 'Hembra', 'Esterilizado', '2023-1-17 00:00:00.000', '2023-7-9 00:00:00.000', 9, 2, 'Zarigüeya');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (44, 'Hembra', 'Esterilizado', '2023-5-15 00:00:00.000', '2023-12-28 00:00:00.000', 2, 6, 'Zarigüeya');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (45, 'Hembra', 'No esterilizado', '2023-2-24 00:00:00.000', '2023-12-19 00:00:00.000', 10, 3, 'Zarigüeya');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (46, 'Hembra', 'Parcialmente', '2023-5-9 00:00:00.000', '2023-12-21 00:00:00.000', 9, 6, 'Zarigüeya');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (47, 'Hembra', 'Parcialmente', '2023-1-29 00:00:00.000', '2023-8-9 00:00:00.000', 3, 1, 'Zarigüeya');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (48, 'Macho', 'Esterilizado', '2023-2-17 00:00:00.000', '2023-10-26 00:00:00.000', 1, 4, 'Zarigüeya');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (49, 'Hembra', 'Esterilizado', '2023-3-23 00:00:00.000', '2023-8-31 00:00:00.000', 8, 8, 'Quokka');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (50, 'Macho', 'Esterilizado', '2023-5-23 00:00:00.000', '2023-12-9 00:00:00.000', 7, 10, 'Quokka');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (51, 'Macho', 'Parcialmente', '2023-1-6 00:00:00.000', '2023-7-26 00:00:00.000', 4, 7, 'Quokka');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (52, 'Hembra', 'Esterilizado', '2023-3-24 00:00:00.000', '2023-7-29 00:00:00.000', 8, 3, 'Quokka');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (53, 'Hembra', 'Esterilizado', '2023-6-6 00:00:00.000', '2023-9-9 00:00:00.000', 9, 1, 'Quokka');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (54, 'Macho', 'Parcialmente', '2023-5-18 00:00:00.000', '2023-8-10 00:00:00.000', 5, 6, 'Quokka');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (55, 'Hembra', 'No esterilizado', '2023-4-5 00:00:00.000', '2023-7-26 00:00:00.000', 8, 9, 'Quokka');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (56, 'Hembra', 'No esterilizado', '2023-3-18 00:00:00.000', '2023-10-18 00:00:00.000', 3, 2, 'Quokka');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (57, 'Macho', 'No esterilizado', '2023-6-4 00:00:00.000', '2023-12-6 00:00:00.000', 3, 3, 'Quokka');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (58, 'Hembra', 'Parcialmente', '2023-3-19 00:00:00.000', '2023-9-6 00:00:00.000', 2, 3, 'Quokka');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (59, 'Macho', 'Parcialmente', '2023-3-31 00:00:00.000', '2023-7-7 00:00:00.000', 2, 8, 'Quokka');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (60, 'Macho', 'Parcialmente', '2023-3-3 00:00:00.000', '2023-8-3 00:00:00.000', 4, 4, 'Quokka');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (61, 'Hembra', 'Parcialmente', '2023-3-1 00:00:00.000', '2023-8-25 00:00:00.000', 7, 6, 'Dugongo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (62, 'Hembra', 'Parcialmente', '2023-1-23 00:00:00.000', '2023-12-7 00:00:00.000', 2, 6, 'Dugongo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (63, 'Hembra', 'Esterilizado', '2023-1-18 00:00:00.000', '2023-10-3 00:00:00.000', 10, 8, 'Dugongo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (64, 'Macho', 'Esterilizado', '2023-4-23 00:00:00.000', '2023-12-5 00:00:00.000', 9, 4, 'Dugongo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (65, 'Hembra', 'No esterilizado', '2023-6-4 00:00:00.000', '2023-7-5 00:00:00.000', 2, 9, 'Dugongo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (66, 'Hembra', 'Parcialmente', '2023-6-24 00:00:00.000', '2023-7-23 00:00:00.000', 4, 2, 'Dugongo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (67, 'Hembra', 'Parcialmente', '2023-1-31 00:00:00.000', '2023-8-20 00:00:00.000', 6, 9, 'Dugongo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (68, 'Macho', 'Parcialmente', '2023-4-25 00:00:00.000', '2023-8-20 00:00:00.000', 8, 1, 'Dugongo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (69, 'Hembra', 'Esterilizado', '2023-3-26 00:00:00.000', '2023-10-9 00:00:00.000', 8, 6, 'Dugongo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (70, 'Macho', 'Esterilizado', '2023-1-20 00:00:00.000', '2023-11-7 00:00:00.000', 8, 2, 'Dugongo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (71, 'Hembra', 'Esterilizado', '2023-3-26 00:00:00.000', '2023-7-29 00:00:00.000', 9, 1, 'Dugongo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (72, 'Hembra', 'Esterilizado', '2023-5-5 00:00:00.000', '2023-7-8 00:00:00.000', 4, 5, 'Dugongo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (73, 'Macho', 'No esterilizado', '2023-6-30 00:00:00.000', '2023-10-19 00:00:00.000', 10, 8, 'Kakapo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (74, 'Hembra', 'Esterilizado', '2023-1-10 00:00:00.000', '2023-9-30 00:00:00.000', 3, 1, 'Kakapo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (75, 'Hembra', 'No esterilizado', '2023-1-25 00:00:00.000', '2023-10-20 00:00:00.000', 7, 8, 'Kakapo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (76, 'Macho', 'Esterilizado', '2023-6-30 00:00:00.000', '2023-9-30 00:00:00.000', 8, 6, 'Kakapo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (77, 'Hembra', 'Parcialmente', '2023-6-8 00:00:00.000', '2023-7-11 00:00:00.000', 5, 1, 'Kakapo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (78, 'Macho', 'Esterilizado', '2023-1-26 00:00:00.000', '2023-7-4 00:00:00.000', 7, 3, 'Kakapo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (79, 'Hembra', 'Esterilizado', '2023-4-29 00:00:00.000', '2023-8-8 00:00:00.000', 2, 9, 'Kakapo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (80, 'Macho', 'Parcialmente', '2023-1-18 00:00:00.000', '2023-9-25 00:00:00.000', 3, 7, 'Kakapo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (81, 'Hembra', 'Parcialmente', '2023-6-6 00:00:00.000', '2023-8-12 00:00:00.000', 4, 1, 'Kakapo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (82, 'Macho', 'Parcialmente', '2023-3-30 00:00:00.000', '2023-9-26 00:00:00.000', 10, 3, 'Kakapo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (83, 'Macho', 'Parcialmente', '2023-3-30 00:00:00.000', '2023-11-18 00:00:00.000', 7, 8, 'Kakapo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (84, 'Macho', 'Parcialmente', '2023-6-14 00:00:00.000', '2023-11-25 00:00:00.000', 2, 2, 'Kakapo');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (85, 'Hembra', 'Parcialmente', '2023-6-23 00:00:00.000', '2023-8-11 00:00:00.000', 3, 1, 'Kinkajú');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (86, 'Macho', 'Esterilizado', '2023-6-23 00:00:00.000', '2023-8-15 00:00:00.000', 1, 2, 'Kinkajú');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (87, 'Hembra', 'No esterilizado', '2023-2-26 00:00:00.000', '2023-10-20 00:00:00.000', 3, 4, 'Kinkajú');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (88, 'Macho', 'Esterilizado', '2023-6-1 00:00:00.000', '2023-8-22 00:00:00.000', 8, 10, 'Kinkajú');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (89, 'Macho', 'Esterilizado', '2023-4-22 00:00:00.000', '2023-11-7 00:00:00.000', 6, 5, 'Kinkajú');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (90, 'Hembra', 'Esterilizado', '2023-2-8 00:00:00.000', '2023-10-3 00:00:00.000', 4, 8, 'Kinkajú');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (91, 'Macho', 'Parcialmente', '2023-5-31 00:00:00.000', '2023-11-10 00:00:00.000', 10, 5, 'Kinkajú');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (92, 'Macho', 'Parcialmente', '2023-1-1 00:00:00.000', '2023-8-11 00:00:00.000', 6, 8, 'Kinkajú');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (93, 'Macho', 'No esterilizado', '2023-3-1 00:00:00.000', '2023-8-23 00:00:00.000', 10, 9, 'Kinkajú');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (94, 'Hembra', 'Esterilizado', '2023-2-3 00:00:00.000', '2023-12-3 00:00:00.000', 2, 1, 'Kinkajú');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (95, 'Hembra', 'Parcialmente', '2023-6-22 00:00:00.000', '2023-11-11 00:00:00.000', 3, 9, 'Kinkajú');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (96, 'Hembra', 'Esterilizado', '2023-3-24 00:00:00.000', '2023-11-9 00:00:00.000', 9, 1, 'Kinkajú');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (97, 'Hembra', 'Parcialmente', '2023-2-7 00:00:00.000', '2023-12-14 00:00:00.000', 6, 5, 'Ibis escarlata');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (98, 'Macho', 'No esterilizado', '2023-1-26 00:00:00.000', '2023-11-23 00:00:00.000', 9, 8, 'Ibis escarlata');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (99, 'Macho', 'Parcialmente', '2023-5-15 00:00:00.000', '2023-7-30 00:00:00.000', 4, 8, 'Ibis escarlata');
+
+INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
+VALUES (100, 'Hembra', 'Esterilizado', '2023-1-4 00:00:00.000', '2023-8-2 00:00:00.000', 5, 6, 'Ibis escarlata');
 
 
 -- Personal
