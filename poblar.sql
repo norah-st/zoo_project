@@ -1244,3 +1244,311 @@ VALUES (99);
 INSERT INTO Medico_veterinario (ID_Personal)
 VALUES (100);
 
+
+-- Brinda
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (26, 48, 2, 12);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (27, 49, 4, 10);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (28, 20, 9, 18);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (29, 43, 9, 12);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (30, 45, 5, 14);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (31, 17, 7, 13);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (32, 30, 6, 9);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (33, 4, 10, 7);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (34, 2, 8, 8);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (35, 17, 7, 13);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (36, 7, 10, 6);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (37, 42, 7, 4);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (38, 19, 9, 1);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (39, 26, 10, 2);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (40, 11, 8, 17);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (41, 4, 10, 7);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (42, 20, 9, 18);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (43, 42, 7, 4);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (44, 48, 2, 12);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (45, 38, 7, 18);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (46, 41, 8, 13);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (47, 33, 7, 11);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (48, 16, 9, 15);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (49, 34, 5, 7);
+
+INSERT INTO Brinda (ID_Personal, ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio)
+VALUES (50, 35, 1, 17);
+
+
+-- Conserva
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (1, 10);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (2, 1);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (3, 10);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (4, 3);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (5, 6);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (6, 9);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (7, 10);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (8, 4);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (9, 4);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (10, 2);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (11, 7);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (12, 8);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (13, 3);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (14, 3);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (15, 4);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (16, 7);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (17, 5);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (18, 3);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (19, 7);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (20, 9);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (21, 1);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (22, 9);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (23, 1);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (24, 3);
+
+INSERT INTO Conserva (ID_Personal, ID_Recinto)
+VALUES (25, 3);
+
+
+-- Cuida
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (1, 3);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (2, 5);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (3, 26);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (4, 30);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (5, 56);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (6, 1);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (7, 63);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (8, 61);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (9, 32);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (10, 9);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (11, 61);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (12, 21);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (13, 74);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (14, 62);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (15, 77);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (16, 31);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (17, 73);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (18, 49);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (19, 88);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (20, 92);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (21, 68);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (22, 71);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (23, 44);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (24, 84);
+
+INSERT INTO Cuida (ID_Personal, ID_Animal)
+VALUES (25, 19);
+
+
+-- Trata
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (76, 20);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (77, 70);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (78, 31);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (79, 15);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (80, 13);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (81, 82);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (82, 35);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (83, 90);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (84, 70);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (85, 34);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (86, 82);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (87, 19);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (88, 11);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (89, 37);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (90, 66);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (91, 61);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (92, 56);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (93, 4);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (94, 5);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (95, 45);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (96, 50);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (97, 13);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (98, 35);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (99, 79);
+
+INSERT INTO Trata (ID_Personal, ID_Animal)
+VALUES (100, 79);
+
