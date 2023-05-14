@@ -103,7 +103,7 @@ CREATE TABLE Animal
   ID_Animal INT NOT NULL,
   Ultimo_control_medico DATE,
   Proximo_control_medico DATE,
-  Nombre_Especie INT NOT NULL,
+  Nombre_Especie VARCHAR(64) NOT NULL,
   ID_Recinto INT NOT NULL,
   Codigo_Organizacion INT NOT NULL,
   PRIMARY KEY (ID_Animal),
