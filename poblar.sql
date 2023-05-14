@@ -31,6 +31,35 @@ VALUES (9, 175388071, 'Stellaris Enterprises', 169671221, 'marioandretti55@aol.c
 INSERT INTO Zoologico (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, Email, Ciudad, Calle, Numero, Num_especies_en_posesion, Num_animales_en_posesion)
 VALUES (10, 217631156, 'QuantumLeap Enterprises', 462233594, 'timothyjohnson7777@yahoo.com', 'Santiago', 'PlazaLibertad', 122, 7, 10);
 
+-- Especies
+INSERT INTO Especie (Nombre_Especie, Clase, Orden, Familia, Genero, Dieta, Longevidad, Largo, Alto, Ancho, Envergadura, Estado_de_conservacion, Nivel_de_agresividad, Ambiente_natural, Peso, Inicio_epoca_de_apareamiento, Termino_epoca_de_apareamiento)
+VALUES ('Narval', 'Chondrichthyes', 'Sauria', 'Canidae', 'Panthera', 'Carnívoros', 18, 5.287, 3.986, 4.467, 2.277, 'NT', 0, 'Dunas de arena', 91, '2023-1-1 00:00:00.000', '2023-11-15 00:00:00.000');
+
+INSERT INTO Especie (Nombre_Especie, Clase, Orden, Familia, Genero, Dieta, Longevidad, Largo, Alto, Ancho, Envergadura, Estado_de_conservacion, Nivel_de_agresividad, Ambiente_natural, Peso, Inicio_epoca_de_apareamiento, Termino_epoca_de_apareamiento)
+VALUES ('Puma', 'Mammalia', 'Cetacea', 'Elephantidae', 'Equus', 'Herbívoros', 5, 9.103, 1.7, 3.271, 10.976, 'VU', 1, 'Glaciar', 37, '2023-1-30 00:00:00.000', '2023-10-17 00:00:00.000');
+
+INSERT INTO Especie (Nombre_Especie, Clase, Orden, Familia, Genero, Dieta, Longevidad, Largo, Alto, Ancho, Envergadura, Estado_de_conservacion, Nivel_de_agresividad, Ambiente_natural, Peso, Inicio_epoca_de_apareamiento, Termino_epoca_de_apareamiento)
+VALUES ('Uakari', 'Amphibia', 'Carnivora', 'Hominidae', 'Macaca', 'Nectarívoros', 20, 3.328, 0.035, 0.336, 5.238, 'EN', 4, 'Costa rocosa', 64, '2023-3-5 00:00:00.000', '2023-8-29 00:00:00.000');
+
+INSERT INTO Especie (Nombre_Especie, Clase, Orden, Familia, Genero, Dieta, Longevidad, Largo, Alto, Ancho, Envergadura, Estado_de_conservacion, Nivel_de_agresividad, Ambiente_natural, Peso, Inicio_epoca_de_apareamiento, Termino_epoca_de_apareamiento)
+VALUES ('Zarigüeya', 'Aves', 'Primates', 'Hominidae', 'Ursus', 'Hematófagos', 19, 10.462, 4.104, 10.696, 6.608, 'EN', 4, 'Arrecife de coral', 5, '2023-6-6 00:00:00.000', '2023-8-14 00:00:00.000');
+
+INSERT INTO Especie (Nombre_Especie, Clase, Orden, Familia, Genero, Dieta, Longevidad, Largo, Alto, Ancho, Envergadura, Estado_de_conservacion, Nivel_de_agresividad, Ambiente_natural, Peso, Inicio_epoca_de_apareamiento, Termino_epoca_de_apareamiento)
+VALUES ('Quokka', 'Reptilia', 'Artiodactyla', 'Accipitridae', 'Canis', 'Micófagos', 5, 8.051, 7.681, 4.316, 9.867, 'VU', 0, 'Arrecife de coral', 62, '2023-4-5 00:00:00.000', '2023-7-21 00:00:00.000');
+
+INSERT INTO Especie (Nombre_Especie, Clase, Orden, Familia, Genero, Dieta, Longevidad, Largo, Alto, Ancho, Envergadura, Estado_de_conservacion, Nivel_de_agresividad, Ambiente_natural, Peso, Inicio_epoca_de_apareamiento, Termino_epoca_de_apareamiento)
+VALUES ('Dugongo', 'Arachnida', 'Coleoptera', 'Bovidae', 'Gorilla', 'Micófagos', 6, 1.745, 9.766, 0.307, 7.891, 'VU', 1, 'Bosque boreal', 64, '2023-5-13 00:00:00.000', '2023-7-13 00:00:00.000');
+
+INSERT INTO Especie (Nombre_Especie, Clase, Orden, Familia, Genero, Dieta, Longevidad, Largo, Alto, Ancho, Envergadura, Estado_de_conservacion, Nivel_de_agresividad, Ambiente_natural, Peso, Inicio_epoca_de_apareamiento, Termino_epoca_de_apareamiento)
+VALUES ('Kakapo', 'Actinopterygii', 'Rodentia', 'Felidae', 'Gorilla', 'Insectívoros', 6, 9.574, 6.25, 1.812, 6.448, 'VU', 5, 'Desierto', 45, '2023-1-8 00:00:00.000', '2023-11-26 00:00:00.000');
+
+INSERT INTO Especie (Nombre_Especie, Clase, Orden, Familia, Genero, Dieta, Longevidad, Largo, Alto, Ancho, Envergadura, Estado_de_conservacion, Nivel_de_agresividad, Ambiente_natural, Peso, Inicio_epoca_de_apareamiento, Termino_epoca_de_apareamiento)
+VALUES ('Kinkajú', 'Crustacea', 'Primates', 'Accipitridae', 'Gorilla', 'Nectarívoros', 10, 5.066, 8.538, 1.201, 9.334, 'NT', 2, 'Glaciar', 51, '2023-3-19 00:00:00.000', '2023-9-5 00:00:00.000');
+
+INSERT INTO Especie (Nombre_Especie, Clase, Orden, Familia, Genero, Dieta, Longevidad, Largo, Alto, Ancho, Envergadura, Estado_de_conservacion, Nivel_de_agresividad, Ambiente_natural, Peso, Inicio_epoca_de_apareamiento, Termino_epoca_de_apareamiento)
+VALUES ('Ibis escarlata', 'Gastropoda', 'Hymenoptera', 'Hominidae', 'Pantherinae', 'Carnívoros', 12, 9.976, 9.487, 0.906, 7.551, 'CR', 5, 'Montañas', 35, '2023-3-26 00:00:00.000', '2023-12-28 00:00:00.000');
+
+
 -- Personal
 INSERT INTO Personal (ID_Personal, RUT, Nombre, Primer_apellido, Segundo_apellido, Telefono, Email, Ciudad, Calle, Numero, Sueldo, Codigo_Organizacion)
 VALUES (1, '311392754', 'Ethan', 'Wilson', 'Adams', 211958051, 'ryanjones4444@gmail.com', 'Coihaique', 'CarreteraDestino', 15, 607664, 1);
