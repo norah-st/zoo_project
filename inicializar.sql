@@ -1,7 +1,7 @@
 -- Crea las tablas para inicializar la base de datos
 CREATE TABLE Insumo
 (
-  Nombre_Insumo varchar(255) NOT NULL,
+  Nombre_Insumo VARCHAR(64) NOT NULL,
   Codigo_Insumo INT NOT NULL,
   PRIMARY KEY (Codigo_Insumo)
 );
@@ -18,12 +18,12 @@ CREATE TABLE Recinto
 CREATE TABLE Proveedor
 (
   Codigo_Organizacion INT NOT NULL,
-  RUT varchar(255) NOT NULL,
-  Nombre_Organizacion varchar(255) NOT NULL,
+  RUT CHAR(10) NOT NULL,
+  Nombre_Organizacion VARCHAR(64) NOT NULL,
   Telefono INT NOT NULL,
-  Email varchar(255) NOT NULL,
-  Ciudad varchar(255) NOT NULL,
-  Calle varchar(255) NOT NULL,
+  Email VARCHAR(64) NOT NULL,
+  Ciudad VARCHAR(64) NOT NULL,
+  Calle VARCHAR(64) NOT NULL,
   Numero INT NOT NULL,
   PRIMARY KEY (Codigo_Organizacion)
 );
@@ -33,49 +33,49 @@ CREATE TABLE Zoologico
   Num_animales_en_posesion INT NOT NULL,
   Num_especies_en_posesion INT NOT NULL,
   Codigo_Organizacion INT NOT NULL,
-  RUT varchar(255) NOT NULL,
+  RUT CHAR(10) NOT NULL,
   Telefono INT NOT NULL,
-  Email varchar(255) NOT NULL,
-  Ciudad varchar(255) NOT NULL,
-  Calle varchar(255) NOT NULL,
+  Email VARCHAR(64) NOT NULL,
+  Ciudad VARCHAR(64) NOT NULL,
+  Calle VARCHAR(64) NOT NULL,
   Numero INT NOT NULL,
-  Nombre_Organizacion varchar(255) NOT NULL,
+  Nombre_Organizacion VARCHAR(64) NOT NULL,
   PRIMARY KEY (Codigo_Organizacion),
   UNIQUE (RUT)
 );
 
-CREATE TABLE Especie -- TODO: Confirmar variables para esta tabla
+CREATE TABLE Especie
 (
-  Nombre_Especie INT NOT NULL,
-  Clase INT NOT NULL,
-  Orden INT NOT NULL,
-  Familia INT NOT NULL,
-  Genero INT NOT NULL,
-  Dieta INT NOT NULL,
+  Nombre_Especie VARCHAR(64) NOT NULL,
+  Clase VARCHAR(64) NOT NULL,
+  Orden VARCHAR(64) NOT NULL,
+  Familia VARCHAR(64) NOT NULL,
+  Genero VARCHAR(16) NOT NULL,
+  Dieta VARCHAR(64) NOT NULL,
   Longevidad INT NOT NULL,
-  Largo INT NOT NULL,
-  Alto INT NOT NULL,
-  Ancho INT NOT NULL,
-  Envergadura INT NOT NULL,
-  Estado_de_conservacion INT NOT NULL,
+  Largo FLOAT NOT NULL,
+  Alto FLOAT NOT NULL,
+  Ancho FLOAT NOT NULL,
+  Envergadura FLOAT NOT NULL,
+  Estado_de_conservacion CHAR(4) NOT NULL,
   Nivel_de_agresividad INT NOT NULL,
-  Ambiente_natural INT NOT NULL,
+  Ambiente_natural VARCHAR(64) NOT NULL,
   Peso INT NOT NULL,
-  Inicio_epoca_de_apareamiento INT NOT NULL,
-  Termino_epoca_de_apearamiento INT NOT NULL,
+  Inicio_epoca_de_apareamiento DATE NOT NULL,
+  Termino_epoca_de_apareamiento DATE NOT NULL,
   PRIMARY KEY (Nombre_Especie)
 );
 
 CREATE TABLE Tipo_de_Servicio
 (
   ID_Tipo_Servicio INT NOT NULL,
-  Nombre_Tipo_Servicio varchar(255) NOT NULL,
+  Nombre_Tipo_Servicio VARCHAR(64) NOT NULL,
   PRIMARY KEY (ID_Tipo_Servicio)
 );
 
 CREATE TABLE Tipo_de_medicamento
 (
-  Nombre_Tipo_Medicamento varchar(255) NOT NULL,
+  Nombre_Tipo_Medicamento VARCHAR(64) NOT NULL,
   ID_Tipo_Medicamento INT NOT NULL,
   PRIMARY KEY (ID_Tipo_Medicamento)
 );
@@ -83,7 +83,7 @@ CREATE TABLE Tipo_de_medicamento
 CREATE TABLE Tipo_de_alimento
 (
   ID_Tipo_Alimento INT NOT NULL,
-  Nombre_Tipo_Alimento varchar(255) NOT NULL,
+  Nombre_Tipo_Alimento VARCHAR(64) NOT NULL,
   PRIMARY KEY (ID_Tipo_Alimento)
 );
 
@@ -96,13 +96,13 @@ CREATE TABLE Provee
   FOREIGN KEY (Codigo_Organizacion) REFERENCES Proveedor(Codigo_Organizacion)
 );
 
-CREATE TABLE Animal -- TODO: Confirmar variables para esta tabla
+CREATE TABLE Animal
 (
-  Sexo INT NOT NULL,
-  Estado_de_Esterilizacion INT NOT NULL,
+  Sexo VARCHAR(16) NOT NULL,
+  Estado_de_Esterilizacion VARCHAR(16) NOT NULL,
   ID_Animal INT NOT NULL,
-  Ultimo_control_medico INT,
-  Proximo_control_medico INT,
+  Ultimo_control_medico DATE,
+  Proximo_control_medico DATE,
   Nombre_Especie INT NOT NULL,
   ID_Recinto INT NOT NULL,
   Codigo_Organizacion INT NOT NULL,
@@ -130,19 +130,19 @@ CREATE TABLE Alimento
   FOREIGN KEY (ID_Tipo_Alimento) REFERENCES Tipo_de_alimento(ID_Tipo_Alimento)
 );
 
-CREATE TABLE Personal -- TODO: Confirmar variables para esta tabla
+CREATE TABLE Personal
 (
   ID_Personal INT NOT NULL,
-  Nombre INT NOT NULL,
-  Primer_apellido INT NOT NULL,
-  Segundo_apellido INT NOT NULL,
-  RUT INT NOT NULL,
-  Ciudad INT NOT NULL,
-  Calle INT NOT NULL,
+  Nombre VARCHAR(64) NOT NULL,
+  Primer_apellido VARCHAR(64) NOT NULL,
+  Segundo_apellido VARCHAR(64) NOT NULL,
+  RUT CHAR(10) NOT NULL,
+  Ciudad VARCHAR(64) NOT NULL,
+  Calle VARCHAR(64) NOT NULL,
   Numero INT NOT NULL,
-  Sueldo INT NOT NULL,
+  Sueldo FLOAT NOT NULL,
   Telefono INT NOT NULL,
-  Email INT NOT NULL,
+  Email VARCHAR(64) NOT NULL,
   Codigo_Organizacion INT NOT NULL,
   PRIMARY KEY (ID_Personal),
   FOREIGN KEY (Codigo_Organizacion) REFERENCES Zoologico(Codigo_Organizacion),
@@ -180,7 +180,7 @@ CREATE TABLE Operador_de_equipos_varios
 CREATE TABLE Servicio_de_mantenimiento
 (
   ID_Mantenimiento INT NOT NULL,
-  Fecha DATETIME NOT NULL,
+  Fecha DATE NOT NULL,
   ID_Recinto INT NOT NULL,
   ID_Tipo_Servicio INT NOT NULL,
   PRIMARY KEY (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio),
