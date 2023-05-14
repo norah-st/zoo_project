@@ -1,17 +1,17 @@
 -- Crea las tablas para inicializar la base de datos
 CREATE TABLE Insumo
 (
-  Nombre_Insumo VARCHAR(64) NOT NULL,
   Codigo_Insumo INT NOT NULL,
+  Nombre_Insumo VARCHAR(64) NOT NULL,
   PRIMARY KEY (Codigo_Insumo)
 );
 
 CREATE TABLE Recinto
 (
+  ID_Recinto INT NOT NULL,
   Ancho INT NOT NULL,
   Largo INT NOT NULL,
   Alto INT NOT NULL,
-  ID_Recinto INT NOT NULL,
   PRIMARY KEY (ID_Recinto)
 );
 
@@ -30,16 +30,16 @@ CREATE TABLE Proveedor
 
 CREATE TABLE Zoologico
 (
-  Num_animales_en_posesion INT NOT NULL,
-  Num_especies_en_posesion INT NOT NULL,
   Codigo_Organizacion INT NOT NULL,
   RUT CHAR(10) NOT NULL,
+  Nombre_Organizacion VARCHAR(64) NOT NULL,
   Telefono INT NOT NULL,
   Email VARCHAR(64) NOT NULL,
   Ciudad VARCHAR(64) NOT NULL,
   Calle VARCHAR(64) NOT NULL,
   Numero INT NOT NULL,
-  Nombre_Organizacion VARCHAR(64) NOT NULL,
+  Num_animales_en_posesion INT NOT NULL,
+  Num_especies_en_posesion INT NOT NULL,
   PRIMARY KEY (Codigo_Organizacion),
   UNIQUE (RUT)
 );
@@ -75,8 +75,8 @@ CREATE TABLE Tipo_de_Servicio
 
 CREATE TABLE Tipo_de_medicamento
 (
-  Nombre_Tipo_Medicamento VARCHAR(64) NOT NULL,
   ID_Tipo_Medicamento INT NOT NULL,
+  Nombre_Tipo_Medicamento VARCHAR(64) NOT NULL,
   PRIMARY KEY (ID_Tipo_Medicamento)
 );
 
@@ -89,8 +89,8 @@ CREATE TABLE Tipo_de_alimento
 
 CREATE TABLE Provee
 (
-  Codigo_Insumo INT NOT NULL,
   Codigo_Organizacion INT NOT NULL,
+  Codigo_Insumo INT NOT NULL,
   PRIMARY KEY (Codigo_Insumo, Codigo_Organizacion),
   FOREIGN KEY (Codigo_Insumo) REFERENCES Insumo(Codigo_Insumo),
   FOREIGN KEY (Codigo_Organizacion) REFERENCES Proveedor(Codigo_Organizacion)
@@ -98,14 +98,14 @@ CREATE TABLE Provee
 
 CREATE TABLE Animal
 (
+  ID_Animal INT NOT NULL,
   Sexo VARCHAR(16) NOT NULL,
   Estado_de_Esterilizacion VARCHAR(16) NOT NULL,
-  ID_Animal INT NOT NULL,
   Ultimo_control_medico DATE,
   Proximo_control_medico DATE,
-  Nombre_Especie VARCHAR(64) NOT NULL,
-  ID_Recinto INT NOT NULL,
   Codigo_Organizacion INT NOT NULL,
+  ID_Recinto INT NOT NULL,
+  Nombre_Especie VARCHAR(64) NOT NULL,
   PRIMARY KEY (ID_Animal),
   FOREIGN KEY (Nombre_Especie) REFERENCES Especie(Nombre_Especie),
   FOREIGN KEY (ID_Recinto) REFERENCES Recinto(ID_Recinto),
@@ -133,16 +133,16 @@ CREATE TABLE Alimento
 CREATE TABLE Personal
 (
   ID_Personal INT NOT NULL,
+  RUT CHAR(10) NOT NULL,
   Nombre VARCHAR(64) NOT NULL,
   Primer_apellido VARCHAR(64) NOT NULL,
   Segundo_apellido VARCHAR(64) NOT NULL,
-  RUT CHAR(10) NOT NULL,
+  Telefono INT NOT NULL,
+  Email VARCHAR(64) NOT NULL,
   Ciudad VARCHAR(64) NOT NULL,
   Calle VARCHAR(64) NOT NULL,
   Numero INT NOT NULL,
   Sueldo FLOAT NOT NULL,
-  Telefono INT NOT NULL,
-  Email VARCHAR(64) NOT NULL,
   Codigo_Organizacion INT NOT NULL,
   PRIMARY KEY (ID_Personal),
   FOREIGN KEY (Codigo_Organizacion) REFERENCES Zoologico(Codigo_Organizacion),
@@ -180,9 +180,9 @@ CREATE TABLE Operador_de_equipos_varios
 CREATE TABLE Servicio_de_mantenimiento
 (
   ID_Mantenimiento INT NOT NULL,
-  Fecha DATE NOT NULL,
   ID_Recinto INT NOT NULL,
   ID_Tipo_Servicio INT NOT NULL,
+  Fecha DATE NOT NULL,
   PRIMARY KEY (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio),
   FOREIGN KEY (ID_Recinto) REFERENCES Recinto(ID_Recinto),
   FOREIGN KEY (ID_Tipo_Servicio) REFERENCES Tipo_de_Servicio(ID_Tipo_Servicio)
