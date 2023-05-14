@@ -125,6 +125,220 @@ INSERT INTO Recinto (ID_Recinto, Ancho, Largo, Alto)
 VALUES (10, 19, 23, 13);
 
 
+-- Tipos de Servicio
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (1, 'Limpieza de jaulas');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (2, 'Mantenimiento de filtros de agua');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (3, 'Control de plagas');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (4, 'Cuidado de áreas verdes');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (5, 'Limpieza de acuarios');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (6, 'Limpieza de baños públicos');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (7, 'Mantenimiento de equipos de iluminación');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (8, 'Mantenimiento de vallas');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (9, 'Limpieza de fuentes');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (10, 'Reparación de techos y paredes');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (11, 'Limpieza de senderos y caminos');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (12, 'Mantenimiento de sistemas de calefacción y refrigeración');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (13, 'Limpieza de ventanas y espejos');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (14, 'Limpieza de estanques y ríos artificiales');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (15, 'Mantenimiento de sistemas de seguridad');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (16, 'Limpieza de áreas de alimentación de animales');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (17, 'Mantenimiento de equipos de sonido y audiovisuales');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (18, 'Cuidado de plantas y flores en los jardines del zoológico');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (19, 'Limpieza y mantenimiento de tiendas y restaurantes del zoológico');
+
+INSERT INTO Tipo_de_Servicio (ID_Tipo_Servicio, Nombre_Tipo_Servicio)
+VALUES (20, 'Limpieza de estacionamientos y áreas de acceso del público.');
+
+
+-- Servicios de mantenimiento
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (1, 4, 16, '2023-1-12 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (2, 8, 8, '2023-11-22 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (3, 2, 11, '2023-11-2 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (4, 10, 7, '2023-12-19 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (5, 6, 18, '2023-9-12 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (6, 5, 19, '2023-8-10 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (7, 10, 6, '2023-1-12 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (8, 8, 13, '2023-7-1 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (9, 3, 7, '2023-7-13 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (10, 4, 11, '2023-4-9 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (11, 8, 17, '2023-8-19 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (12, 5, 7, '2023-8-28 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (13, 4, 6, '2023-1-18 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (14, 2, 11, '2023-9-1 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (15, 3, 10, '2023-11-16 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (16, 9, 15, '2023-3-21 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (17, 7, 13, '2023-12-17 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (18, 9, 4, '2023-2-8 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (19, 9, 1, '2023-7-20 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (20, 9, 18, '2023-6-4 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (21, 10, 3, '2023-12-19 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (22, 8, 4, '2023-2-21 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (23, 3, 10, '2023-3-10 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (24, 7, 8, '2023-10-26 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (25, 1, 18, '2023-7-2 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (26, 10, 2, '2023-2-21 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (27, 6, 10, '2023-10-24 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (28, 5, 13, '2023-10-20 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (29, 8, 2, '2023-11-5 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (30, 6, 9, '2023-2-10 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (31, 1, 5, '2023-4-6 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (32, 2, 15, '2023-7-11 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (33, 7, 11, '2023-5-10 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (34, 5, 7, '2023-1-22 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (35, 1, 17, '2023-3-3 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (36, 4, 2, '2023-12-22 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (37, 8, 17, '2023-2-25 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (38, 7, 18, '2023-5-7 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (39, 8, 16, '2023-8-8 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (40, 5, 17, '2023-10-10 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (41, 8, 13, '2023-3-17 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (42, 7, 4, '2023-2-6 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (43, 9, 12, '2023-6-19 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (44, 1, 4, '2023-2-13 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (45, 5, 14, '2023-6-22 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (46, 10, 4, '2023-9-17 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (47, 5, 4, '2023-8-16 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (48, 2, 12, '2023-9-8 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (49, 4, 10, '2023-11-11 00:00:00.000');
+
+INSERT INTO Servicio_de_mantenimiento (ID_Mantenimiento, ID_Recinto, ID_Tipo_Servicio, Fecha)
+VALUES (50, 9, 20, '2023-3-15 00:00:00.000');
+
+
 -- Animales
 INSERT INTO Animal (ID_Animal, Sexo, Estado_de_Esterilizacion, Ultimo_control_medico, Proximo_control_medico, Codigo_Organizacion, ID_Recinto, Nombre_Especie)
 VALUES (1, 'Hembra', 'Esterilizado', '2023-1-20 00:00:00.000', '2023-12-22 00:00:00.000', 5, 5, 'Narval');
@@ -727,4 +941,306 @@ VALUES (99, '927815836', 'Sophia', 'Rodriguez', 'Scott', 799197530, 'jennifermit
 
 INSERT INTO Personal (ID_Personal, RUT, Nombre, Primer_apellido, Segundo_apellido, Telefono, Email, Ciudad, Calle, Numero, Sueldo, Codigo_Organizacion)
 VALUES (100, '477566933', 'Christopher', 'Chen', 'Davis', 676532676, 'amandamartin7777@hotmail.com', 'Iquique', 'SenderoSerenidad', 201, 170041, 10);
+
+
+-- Tablas derivadas de Personal
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (1);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (2);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (3);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (4);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (5);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (6);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (7);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (8);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (9);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (10);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (11);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (12);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (13);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (14);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (15);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (16);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (17);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (18);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (19);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (20);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (21);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (22);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (23);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (24);
+
+INSERT INTO Cuidador_de_animales (ID_Personal)
+VALUES (25);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (26);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (27);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (28);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (29);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (30);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (31);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (32);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (33);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (34);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (35);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (36);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (37);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (38);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (39);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (40);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (41);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (42);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (43);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (44);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (45);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (46);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (47);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (48);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (49);
+
+INSERT INTO Operador_de_equipos_varios (ID_Personal)
+VALUES (50);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (51);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (52);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (53);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (54);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (55);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (56);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (57);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (58);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (59);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (60);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (61);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (62);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (63);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (64);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (65);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (66);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (67);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (68);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (69);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (70);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (71);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (72);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (73);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (74);
+
+INSERT INTO Experto_en_nutricion_animal (ID_Personal)
+VALUES (75);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (76);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (77);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (78);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (79);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (80);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (81);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (82);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (83);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (84);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (85);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (86);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (87);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (88);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (89);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (90);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (91);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (92);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (93);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (94);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (95);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (96);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (97);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (98);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (99);
+
+INSERT INTO Medico_veterinario (ID_Personal)
+VALUES (100);
 
