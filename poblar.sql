@@ -93,6 +93,948 @@ INSERT INTO Proveedor (Codigo_Organizacion, RUT, Nombre_Organizacion, Telefono, 
 VALUES (10, '993773634', 'Oceanview Ventures', 16, 'sarahsmith99@yahoo.com', 'Futaleufú', 'CarreteraDestino', 16);
 
 
+-- Insumos
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (1, 'Analgex');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (2, 'Antibiosina');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (3, 'Antifebrilol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (4, 'Antiflumex');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (5, 'Antiinflamol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (6, 'Antimicobac');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (7, 'Antiparasil');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (8, 'Antisépticor');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (9, 'Antitóxicor');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (10, 'Artritisol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (11, 'Bronquimucol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (12, 'Calmabético');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (13, 'Cardioglicol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (14, 'Coliriumax');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (15, 'Digestinol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (16, 'Endocrinex');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (17, 'Epileptil');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (18, 'Ferrocomp');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (19, 'Gastroprotectol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (20, 'Hematopoyetil');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (21, 'Hepatoglicol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (22, 'Hipotensorol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (23, 'Inmunoestimulol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (24, 'Laxantex');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (25, 'Mucolíticor');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (26, 'Neuroglicol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (27, 'Oftalmoglicol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (28, 'Osteosintil');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (29, 'Potenciadorol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (30, 'Reumatex');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (31, 'Sedatol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (32, 'Terapéuticor');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (33, 'Tranquilizol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (34, 'Urogenitalol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (35, 'Vasodilatol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (36, 'Vitamínicoz');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (37, 'Antianémicor');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (38, 'Antitumoralol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (39, 'Bactericidex');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (40, 'Cardiovascularol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (41, 'Desparasitex');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (42, 'Diuréticor');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (43, 'Espectroantibióticor');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (44, 'Fungicidex');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (45, 'Glicoprotectol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (46, 'Inmunosupresorol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (47, 'Mucocinéticor');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (48, 'Neuroprotectorol');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (49, 'Oftálmicor');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (50, 'Probióticor');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (51, 'Acelgas');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (52, 'Avena');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (53, 'Alpiste');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (54, 'Alfalfa');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (55, 'Arroz integral');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (56, 'Bananas');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (57, 'Berros');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (58, 'Brócoli');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (59, 'Calabacines');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (60, 'Calabaza');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (61, 'Cardos');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (62, 'Cebada');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (63, 'Centeno');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (64, 'Chirimoyas');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (65, 'Col');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (66, 'Coles de Bruselas');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (67, 'Espárragos');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (68, 'Espinacas');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (69, 'Fresas');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (70, 'Granos de maíz');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (71, 'Guayabas');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (72, 'Heno de alfalfa');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (73, 'Heno de avena');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (74, 'Heno de festuca');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (75, 'Heno de Timothy');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (76, 'Higos');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (77, 'Judías verdes');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (78, 'Kiwis');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (79, 'Lechugas');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (80, 'Maíz');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (81, 'Manzanas');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (82, 'Melocotones');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (83, 'Melones');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (84, 'Nabos');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (85, 'Naranjas');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (86, 'Nísperos');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (87, 'Pan integral');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (88, 'Papayas');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (89, 'Pasas');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (90, 'Pera');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (91, 'Pepinos');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (92, 'Pimiento rojo');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (93, 'Plátanos');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (94, 'Rábano');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (95, 'Remolacha');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (96, 'Sandías');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (97, 'Soja');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (98, 'Tomates');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (99, 'Uvas');
+
+INSERT INTO Insumo (Codigo_Insumo, Nombre_Insumo)
+VALUES (100, 'Zanahorias');
+
+
+-- Provee
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (1, 1);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (1, 2);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (1, 3);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (1, 4);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (1, 5);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (1, 6);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (1, 7);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (1, 8);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (1, 9);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (1, 10);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (2, 11);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (2, 12);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (2, 13);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (2, 14);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (2, 15);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (2, 16);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (2, 17);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (2, 18);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (2, 19);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (2, 20);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (3, 21);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (3, 22);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (3, 23);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (3, 24);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (3, 25);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (3, 26);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (3, 27);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (3, 28);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (3, 29);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (3, 30);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (4, 31);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (4, 32);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (4, 33);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (4, 34);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (4, 35);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (4, 36);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (4, 37);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (4, 38);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (4, 39);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (4, 40);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (5, 41);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (5, 42);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (5, 43);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (5, 44);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (5, 45);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (5, 46);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (5, 47);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (5, 48);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (5, 49);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (5, 50);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (6, 51);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (6, 52);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (6, 53);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (6, 54);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (6, 55);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (6, 56);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (6, 57);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (6, 58);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (6, 59);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (6, 60);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (7, 61);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (7, 62);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (7, 63);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (7, 64);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (7, 65);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (7, 66);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (7, 67);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (7, 68);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (7, 69);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (7, 70);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (8, 71);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (8, 72);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (8, 73);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (8, 74);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (8, 75);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (8, 76);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (8, 77);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (8, 78);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (8, 79);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (8, 80);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (9, 81);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (9, 82);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (9, 83);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (9, 84);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (9, 85);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (9, 86);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (9, 87);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (9, 88);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (9, 89);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (9, 90);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (10, 91);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (10, 92);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (10, 93);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (10, 94);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (10, 95);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (10, 96);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (10, 97);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (10, 98);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (10, 99);
+
+INSERT INTO Provee (Codigo_Organizacion, Codigo_Insumo)
+VALUES (10, 100);
+
+
+-- Tipo de Alimento
+INSERT INTO Tipo_de_alimento (ID_Tipo_alimento, Nombre_Tipo_Alimento)
+VALUES (1, 'Carnes');
+
+INSERT INTO Tipo_de_alimento (ID_Tipo_alimento, Nombre_Tipo_Alimento)
+VALUES (2, 'Frutas');
+
+INSERT INTO Tipo_de_alimento (ID_Tipo_alimento, Nombre_Tipo_Alimento)
+VALUES (3, 'Vegetales');
+
+INSERT INTO Tipo_de_alimento (ID_Tipo_alimento, Nombre_Tipo_Alimento)
+VALUES (4, 'Granos y semillas');
+
+INSERT INTO Tipo_de_alimento (ID_Tipo_alimento, Nombre_Tipo_Alimento)
+VALUES (5, 'Insectos');
+
+
+-- Tipo de medicamento
+INSERT INTO Tipo_de_medicamento (ID_Tipo_Medicamento, Nombre_Tipo_Medicamento)
+VALUES (1, 'Antibióticos');
+
+INSERT INTO Tipo_de_medicamento (ID_Tipo_Medicamento, Nombre_Tipo_Medicamento)
+VALUES (2, 'Antiinflamatorios');
+
+INSERT INTO Tipo_de_medicamento (ID_Tipo_Medicamento, Nombre_Tipo_Medicamento)
+VALUES (3, 'Parasiticidas');
+
+INSERT INTO Tipo_de_medicamento (ID_Tipo_Medicamento, Nombre_Tipo_Medicamento)
+VALUES (4, 'Analgésicos');
+
+INSERT INTO Tipo_de_medicamento (ID_Tipo_Medicamento, Nombre_Tipo_Medicamento)
+VALUES (5, 'Vitaminas y suplementos');
+
+
+-- Medicamentos
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (1, 1);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (2, 1);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (3, 1);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (4, 1);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (5, 1);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (6, 1);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (7, 1);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (8, 1);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (9, 1);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (10, 1);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (11, 2);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (12, 2);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (13, 2);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (14, 2);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (15, 2);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (16, 2);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (17, 2);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (18, 2);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (19, 2);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (20, 2);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (21, 3);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (22, 3);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (23, 3);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (24, 3);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (25, 3);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (26, 3);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (27, 3);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (28, 3);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (29, 3);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (30, 3);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (31, 4);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (32, 4);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (33, 4);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (34, 4);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (35, 4);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (36, 4);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (37, 4);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (38, 4);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (39, 4);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (40, 4);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (41, 5);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (42, 5);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (43, 5);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (44, 5);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (45, 5);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (46, 5);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (47, 5);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (48, 5);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (49, 5);
+
+INSERT INTO Medicamento (Codigo_Insumo, ID_Tipo_Medicamento)
+VALUES (50, 5);
+
+
+-- Alimentos
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (51, 1);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (52, 1);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (53, 1);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (54, 1);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (55, 1);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (56, 1);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (57, 1);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (58, 1);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (59, 1);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (60, 1);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (61, 2);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (62, 2);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (63, 2);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (64, 2);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (65, 2);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (66, 2);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (67, 2);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (68, 2);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (69, 2);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (70, 2);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (71, 3);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (72, 3);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (73, 3);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (74, 3);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (75, 3);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (76, 3);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (77, 3);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (78, 3);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (79, 3);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (80, 3);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (81, 4);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (82, 4);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (83, 4);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (84, 4);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (85, 4);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (86, 4);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (87, 4);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (88, 4);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (89, 4);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (90, 4);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (91, 5);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (92, 5);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (93, 5);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (94, 5);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (95, 5);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (96, 5);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (97, 5);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (98, 5);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (99, 5);
+
+INSERT INTO Alimento (Codigo_Insumo, ID_Tipo_Alimento)
+VALUES (100, 5);
+
+
 -- Recintos
 INSERT INTO Recinto (ID_Recinto, Ancho, Largo, Alto)
 VALUES (1, 47, 27, 21);
@@ -1552,3 +2494,156 @@ VALUES (99, 79);
 INSERT INTO Trata (ID_Personal, ID_Animal)
 VALUES (100, 79);
 
+
+-- Regula
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (51, 59);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (52, 97);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (53, 58);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (54, 92);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (55, 68);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (56, 69);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (57, 90);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (58, 88);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (59, 52);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (60, 76);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (61, 67);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (62, 100);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (63, 68);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (64, 89);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (65, 87);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (66, 97);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (67, 60);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (68, 99);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (69, 58);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (70, 58);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (71, 80);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (72, 78);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (73, 68);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (74, 97);
+
+INSERT INTO Regula (ID_Personal, Codigo_Insumo)
+VALUES (75, 92);
+
+
+-- Controla
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (76, 36);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (77, 2);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (78, 2);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (79, 47);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (80, 12);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (81, 8);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (82, 16);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (83, 7);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (84, 1);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (85, 44);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (86, 26);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (87, 4);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (88, 12);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (89, 45);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (90, 22);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (91, 8);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (92, 25);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (93, 28);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (94, 21);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (95, 18);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (96, 42);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (97, 44);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (98, 28);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (99, 18);
+
+INSERT INTO Controla (ID_Personal, Codigo_Insumo)
+VALUES (100, 44);
