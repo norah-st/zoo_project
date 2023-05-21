@@ -1,0 +1,44 @@
+CodigoOrganizacion '02001'
+NombreOrganizacion 'Suministros VitaPharma'
+RUT '24127074-9'
+Telefono '39804498545'
+Email 'contacto@vitapharma.com'
+Ciudad 'Los Vilos'
+Calle 'Avenida Maravilla'
+Numero 628
+
+CodigoOrganizacion '02002'
+NombreOrganizacion 'NutriSalud Distribuciones'
+RUT '31486352-0'
+Telefono '95870333733'
+Email 'contacto@nutrisalud.com'
+Ciudad 'Cerro Navia'
+Calle 'Calle Curiosidad'
+Numero 357
+
+CodigoOrganizacion '02003'
+NombreOrganizacion 'Farmalimentos Directo'
+RUT '68170808-0'
+Telefono '95598119094'
+Email 'contacto@farmalimento.com'
+Ciudad 'Chimbarongo'
+Calle 'Calle Ganador'
+Numero 71
+    
+CodigoOrganizacion '02004'
+NombreOrganizacion 'BioMed Supplies'
+RUT '84543012-K'
+Telefono '41868116509'
+Email 'contacto@biomed.com'
+Ciudad 'Chañaral'
+Calle 'Avenida Felizidad'
+Numero 133
+
+CodigoOrganizacion '02005'
+NombreOrganizacion 'SaluNutriPro'
+RUT '59180561-1'
+Telefono '12008585211'
+Email 'contacto@salanutripro.com'
+Ciudad 'Coronel'
+Calle 'Carrera Amistad'
+Numero 25

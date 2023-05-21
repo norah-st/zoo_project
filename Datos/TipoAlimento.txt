@@ -1,0 +1,29 @@
+IDTipoAlimento 0
+NombreTipoAlimento 'NutriBoost'
+
+IDTipoAlimento 1
+NombreTipoAlimento 'VitaBites'
+
+IDTipoAlimento 2
+NombreTipoAlimento 'SuperGrains'
+
+IDTipoAlimento 3
+NombreTipoAlimento 'ProteinDelight'
+
+IDTipoAlimento 4
+NombreTipoAlimento 'CrunchyFuel'
+
+IDTipoAlimento 5
+NombreTipoAlimento 'FreshHarvest'
+
+IDTipoAlimento 6
+NombreTipoAlimento 'PowerGreens'
+
+IDTipoAlimento 7
+NombreTipoAlimento 'ZenBlend'
+
+IDTipoAlimento 8
+NombreTipoAlimento 'GlowBerry'
+
+IDTipoAlimento 9
+NombreTipoAlimento 'YummyVeggie'

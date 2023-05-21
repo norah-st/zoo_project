@@ -1,0 +1,14 @@
+CodigoInsumo '02007'
+IDTipoMedicamento 0
+
+CodigoInsumo '02008'
+IDTipoMedicamento 1
+
+CodigoInsumo '02009'
+IDTipoMedicamento 2
+
+CodigoInsumo '02010'
+IDTipoMedicamento 3
+
+CodigoInsumo '02011'
+IDTipoMedicamento 2

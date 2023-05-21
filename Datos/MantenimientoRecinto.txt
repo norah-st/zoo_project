@@ -1,0 +1,64 @@
+CodigoMantenimientoRecinto '01001001001'
+Fecha '2023-05-30'
+CodigoRecinto '01001001'
+IDTipoServicio 0
+
+CodigoMantenimientoRecinto '01001001002'
+Fecha '2023-05-25'
+CodigoRecinto '01001001'
+IDTipoServicio 1
+
+CodigoMantenimientoRecinto '01001001003'
+Fecha '2023-02-10'
+CodigoRecinto '01001001'
+IDTipoServicio 3
+
+CodigoMantenimientoRecinto '01001002004'
+Fecha '2023-01-20'
+CodigoRecinto '01001002'
+IDTipoServicio 4
+
+CodigoMantenimientoRecinto '01002001005'
+Fecha '2023-02-28'
+CodigoRecinto '01002001'
+IDTipoServicio 3
+
+CodigoMantenimientoRecinto '01002001006'
+Fecha '2022-12-03'
+CodigoRecinto '01002001'
+IDTipoServicio 1
+
+CodigoMantenimientoRecinto '01002001007'
+Fecha '2021-01-21'
+CodigoRecinto '01002001'
+IDTipoServicio 3
+
+CodigoMantenimientoRecinto '01002001008'
+Fecha '2023-05-18'
+CodigoRecinto '01002001'
+IDTipoServicio 2
+
+CodigoMantenimientoRecinto '01002001009'
+Fecha '2023-04-30'
+CodigoRecinto '01003001'
+IDTipoServicio 1
+
+CodigoMantenimientoRecinto '01002001010'
+Fecha '2023-02-19'
+CodigoRecinto '01003003'
+IDTipoServicio 2
+
+CodigoMantenimientoRecinto '01002001011'
+Fecha '2023-01-01'
+CodigoRecinto '01003003'
+IDTipoServicio 3
+
+CodigoMantenimientoRecinto '01002001012'
+Fecha '2023-02-04'
+CodigoRecinto '01004001'
+IDTipoServicio 0
+
+CodigoMantenimientoRecinto '01002001013'
+Fecha '2023-05-20'
+CodigoRecinto '01005001'
+IDTipoServicio 0

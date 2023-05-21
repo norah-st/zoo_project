@@ -1,0 +1,28 @@
+Notas sobre los datos
+************************
+Insumo
+1-6 Alimentos
+7-11 Medicamento
+
+Zoologico 1 - 2 Recintos
+Zoologico 2 - 1 Recintos
+Zoologico 3 - 3 Recintos
+Zoologico 4 - 2 Recintos
+Zoologico 5 - 1 Recintos
+
+Recinto 1 Zoo 1 - 3 Mantenimientos
+Recinto 2 Zoo 1 - 1 Mantenimiento
+
+Recinto 1 Zoo 2 - 4 Mantenimientos
+
+Recinto 1 Zoo 3 - 1 Mantenimiento
+Recinto 2 Zoo 3 - 0 Mantenimientos
+Recinto 3 Zoo 3 - 2 Mantenimientos
+
+Recinto 1 Zoo 4 - 1 Mantenimientos
+Recinto 2 Zoo 4 - 0 Mantenimientos
+
+Recinto 1 Zoo 5 - 1 Mantenimiento
+
+Zoo 3 Recinto 2 - No animales
+Zoo 5 Recinto 1 - No Animales

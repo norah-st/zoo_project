@@ -1,0 +1,29 @@
+IDTipoMedicamento 0
+NombreTipoMedicamento 'AlivioMax'
+
+IDTipoMedicamento 1
+NombreTipoMedicamento 'Tranquilinex'
+
+IDTipoMedicamento 2
+NombreTipoMedicamento 'Vitalol'
+
+IDTipoMedicamento 3
+NombreTipoMedicamento 'Dermacure'
+
+IDTipoMedicamento 4
+NombreTipoMedicamento 'Respigen'
+
+IDTipoMedicamento 5
+NombreTipoMedicamento 'Cardiogard'
+
+IDTipoMedicamento 6
+NombreTipoMedicamento 'Neuroflex'
+
+IDTipoMedicamento 7
+NombreTipoMedicamento 'Digestoliv'
+
+IDTipoMedicamento 8
+NombreTipoMedicamento 'OsteoPlus'
+
+IDTipoMedicamento 9
+NombreTipoMedicamento 'Immunovit'

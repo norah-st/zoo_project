@@ -1,0 +1,44 @@
+CodigoRecinto '01001001'
+Ancho 50
+Largo 30
+Alto 20
+
+CodigoRecinto '01001002'
+Ancho 30
+Largo 60
+Alto 80
+
+CodigoRecinto '01002001'
+Ancho 20
+Largo 10
+Alto 5
+
+CodigoRecinto '01003001'
+Ancho 90
+Largo 100
+Alto 60
+
+CodigoRecinto '01003002'
+Ancho 10
+Largo 32
+Alto 45
+
+CodigoRecinto '01003003'
+Ancho 28
+Largo 27
+Alto 30
+
+CodigoRecinto '01004001'
+Ancho 10
+Largo 5
+Alto 7
+
+CodigoRecinto '01004002'
+Ancho 6
+Largo 80
+Alto 13
+
+CodigoRecinto '01005001'
+Ancho 34
+Largo 75
+Alto 105

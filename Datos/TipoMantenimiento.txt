@@ -1,0 +1,20 @@
+IDTipoMantenimiento 0
+NombreTipoMantenimiento 'Mantenimiento de equipos de iluminación'
+
+IDTipoMantenimiento 1
+NombreTipoMantenimiento 'Mantenimiento de vallas'
+
+IDTipoMantenimiento 2
+NombreTipoMantenimiento 'Mantenimiento de sistemas de calefacción'
+
+IDTipoMantenimiento 3
+NombreTipoMantenimiento 'Mantenimiento de sistemas de seguridad'
+
+IDTipoMantenimiento 4
+NombreTipoMantenimiento 'Mantenimiento de equipos audiovisuales'
+
+IDTipoMantenimiento 5
+NombreTipoMantenimiento 'Limpieza y mantenimiento de tiendas'
+
+IDTipoMantenimiento 6
+NombreTipoMantenimiento 'Limpieza y mantenimiento de restaurantes'

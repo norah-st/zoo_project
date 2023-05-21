@@ -1,0 +1,32 @@
+CodigoInsumo '02001'
+NombreInsumo 'Alimento Rapido'
+
+CodigoInsumo '02002'
+NombreInsumo 'Alimento Express'
+
+CodigoInsumo '02003'
+NombreInsumo 'Alimentacion Sana'
+
+CodigoInsumo '02004'
+NombreInsumo 'Alimentos Naturales'
+
+CodigoInsumo '02005'
+NombreInsumo 'Alimentacion Nutritiva'
+
+CodigoInsumo '02006'
+NombreInsumo 'Alimentos Granja'
+
+CodigoInsumo '02007'
+NombreInsumo 'Bio-Medicamentos'
+
+CodigoInsumo '02008'
+NombreInsumo 'Med-Necesidad'
+
+CodigoInsumo '02009'
+NombreInsumo 'Medicamentos Salud'
+
+CodigoInsumo '02010'
+NombreInsumo 'Medicamentos Nutricion'
+
+CodigoInsumo '02011'
+NombreInsumo 'Medicamentos Nutricion Express'

@@ -1,0 +1,54 @@
+CodigoOrganizacion '01001'
+NombreOrganizacion 'Zoológico Safari Aventura'
+NumeroAnimalesPosesion 30
+NumeroEspeciesPosesion 5
+RUT '92651737-1'
+Telefono '42536853674'
+Email 'contacto@zoosafaventura.com'
+Ciudad 'Antofagasta'
+Calle 'Avenida Aventura'
+Numero 44
+
+CodigoOrganizacion '01002'
+NombreOrganizacion 'Parque de la Fauna Exótica'
+NumeroAnimalesPosesion 50
+NumeroEspeciesPosesion 3
+RUT '03195541-9'
+Telefono '85540513960'
+Email 'contacto@parquefaunaexo.com'
+Ciudad 'Loncoche'
+Calle 'Plaza Libertad'
+Numero 608
+
+CodigoOrganizacion '01003'
+NombreOrganizacion 'Jardín Zoológico Naturalia'
+NumeroAnimalesPosesion 10
+NumeroEspeciesPosesion 6
+RUT '15573542-7'
+Telefono '61275634873'
+Email 'contacto@jardinzoonat.com'
+Ciudad 'El Bosque'
+Calle 'Paseo Fantasia'
+Numero 742
+
+CodigoOrganizacion '01004'
+NombreOrganizacion 'Mundo Animalia'
+NumeroAnimalesPosesion 10
+NumeroEspeciesPosesion 6
+RUT '47594397-4'
+Telefono '61146665910'
+Email 'mundo@animalia.com'
+Ciudad 'Alhué'
+Calle 'Calle Curiosidad'
+Numero 254
+
+CodigoOrganizacion '01005'
+NombreOrganizacion 'Zoológico de la Biodiversidad'
+NumeroAnimalesPosesion 30
+NumeroEspeciesPosesion 10
+RUT '44077559-K'
+Telefono '70608487290'
+Email 'zoo@biodiversidad.com'
+Ciudad 'Alto Hospicio'
+Calle 'Calle Ganador'
+Numero 570

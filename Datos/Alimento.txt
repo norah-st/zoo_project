@@ -1,0 +1,17 @@
+CodigoInsumo '02001'
+IDTipoAlimento 0
+
+CodigoInsumo '02002'
+IDTipoAlimento 3
+
+CodigoInsumo '02003'
+IDTipoAlimento 1
+
+CodigoInsumo '02004'
+IDTipoAlimento 5
+
+CodigoInsumo '02005'
+IDTipoAlimento 1
+
+CodigoInsumo '02006'
+IDTipoAlimento 1

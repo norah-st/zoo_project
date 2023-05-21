@@ -1,0 +1,32 @@
+CodigoOrganizacion '02001'
+CodigoInsumo '02001'
+
+CodigoOrganizacion '02001'
+CodigoInsumo '02002'
+
+CodigoOrganizacion '02001'
+CodigoInsumo '02003'
+
+CodigoOrganizacion '02002'
+CodigoInsumo '02004'
+
+CodigoOrganizacion '02002'
+CodigoInsumo '02005'
+
+CodigoOrganizacion '02003'
+CodigoInsumo '02006'
+
+CodigoOrganizacion '02004'
+CodigoInsumo '02007'
+
+CodigoOrganizacion '02004'
+CodigoInsumo '02008'
+
+CodigoOrganizacion '02004'
+CodigoInsumo '02009'
+
+CodigoOrganizacion '02005'
+CodigoInsumo '02010'
+
+CodigoOrganizacion '02005'
+CodigoInsumo '02011'
