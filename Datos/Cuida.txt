@@ -1,0 +1,11 @@
+CodigoPersonal '01003005'
+CodigoAnimal '01003001'
+
+CodigoPersonal '01003005'
+CodigoAnimal '01003002'
+
+CodigoPersonal '01004003'
+CodigoAnimal '01004001'
+
+CodigoPersonal '01004003'
+CodigoAnimal '01004002'

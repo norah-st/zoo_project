@@ -1,0 +1,14 @@
+CodigoPersonal '01003005'
+CodigoRecinto '01003001'
+
+CodigoPersonal '01003005'
+CodigoRecinto '01003002'
+
+CodigoPersonal '01003005'
+CodigoRecinto '01003003'
+
+CodigoPersonal '01004003'
+CodigoRecinto '01004001'
+
+CodigoPersonal '01004003'
+CodigoRecinto '01004002'

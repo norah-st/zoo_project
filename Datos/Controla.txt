@@ -1,0 +1,23 @@
+CodigoPersonal '01001002'
+CodigoMedicamento '01001'
+
+CodigoPersonal '01001002'
+CodigoMedicamento '01003'
+
+CodigoPersonal '01001002'
+CodigoMedicamento '01004'
+
+CodigoPersonal '01002002'
+CodigoMedicamento '01009'
+
+CodigoPersonal '01003003'
+CodigoMedicamento '01008'
+
+CodigoPersonal '01003003'
+CodigoMedicamento '01005'
+
+CodigoPersonal '01004002'
+CodigoMedicamento '01002'
+
+CodigoPersonal '01004002'
+CodigoMedicamento '01006'

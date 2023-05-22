@@ -1,0 +1,32 @@
+CodigoPersonal '01001001'
+CodigoAlimento '02001'
+
+CodigoPersonal '01001001'
+CodigoAlimento '02002'
+
+CodigoPersonal '01002001'
+CodigoAlimento '02004'
+
+CodigoPersonal '01002001'
+CodigoAlimento '02002'
+
+CodigoPersonal '01003001'
+CodigoAlimento '02003'
+
+CodigoPersonal '01003002'
+CodigoAlimento '02001'
+
+CodigoPersonal '01003002'
+CodigoAlimento '02005'
+
+CodigoPersonal '01004001'
+CodigoAlimento '02006'
+
+CodigoPersonal '01004001'
+CodigoAlimento '02007'
+
+CodigoPersonal '01004001'
+CodigoAlimento '02010'
+
+CodigoPersonal '01005001'
+CodigoAlimento '02009'
