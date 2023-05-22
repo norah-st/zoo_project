@@ -283,3 +283,16 @@ Email 'kellygreen2222@gmail.com'
 Ciudad 'La Cruz'
 Calle 'Carrera Amistad'
 Numero 338
+
+CodigoPersonal '01005004'
+Nombre 'James'
+PrimerApellido 'Rodriguez'
+SegundoApellido 'Chen'
+FechaNacimiento '2000-4-6'
+FechaContratacion '2014-1-10'
+RUT '9657356-4'
+Telefono '76146564677'
+Email 'williamtaylor1111@yahoo.com'
+Ciudad 'Coyhaique'
+Calle 'AvenidaAventura'
+Numero 307
