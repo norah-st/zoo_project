@@ -706,3 +706,156 @@ VALUES ('01003006', '01003002001');
 
 INSERT INTO Brinda (CodigoPersonal, CodigoMantenimientoRecinto)
 VALUES ('01003006', '01003003001');
+
+
+
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (1, '01001', '01001001', NULL, NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (2, '01001', '01001002', NULL, NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (3, '01002', '01002001', NULL, NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (4, '01003', '01003001', NULL, NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (5, '01003', '01003002', NULL, NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (6, '01003', '01003003', NULL, NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (7, '01004', '01004001', NULL, NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (8, '01004', '01004002', NULL, NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (9, '01005', '01005001', NULL, NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (10, '01001', NULL, '01001001', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (11, '01001', NULL, '01001002', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (12, '01001', NULL, '01001003', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (13, '01002', NULL, '01002001', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (14, '01003', NULL, '01003001', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (15, '01003', NULL, '01003002', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (16, '01004', NULL, '01004001', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (17, '01004', NULL, '01004002', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (18, '01001', NULL, NULL, '01001001');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (19, '01001', NULL, NULL, '01001002');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (20, '01001', NULL, NULL, '01001003');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (21, '01001', NULL, NULL, '01001004');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (22, '01001', NULL, NULL, '01001005');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (23, '01002', NULL, NULL, '01002001');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (24, '01002', NULL, NULL, '01002002');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (25, '01002', NULL, NULL, '01002003');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (26, '01002', NULL, NULL, '01002004');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (27, '01003', NULL, NULL, '01003001');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (28, '01003', NULL, NULL, '01003002');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (29, '01003', NULL, NULL, '01003003');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (30, '01003', NULL, NULL, '01003004');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (31, '01003', NULL, NULL, '01003005');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (32, '01003', NULL, NULL, '01003006');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (33, '01004', NULL, NULL, '01004001');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (34, '01004', NULL, NULL, '01004002');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (35, '01004', NULL, NULL, '01004003');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (36, '01004', NULL, NULL, '01004004');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (37, '01005', NULL, NULL, '01005001');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (38, '01005', NULL, NULL, '01005002');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (39, '01005', NULL, NULL, '01005003');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (40, '01005', NULL, NULL, '01005003');
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (41, '01001', '01001001', '01001001', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (42, '01001', '01001002', '01001002', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (43, '01001', '01001002', '01001003', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (44, '01002', '01002001', '01002001', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (45, '01003', '01003001', '01003001', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (46, '01003', '01003002', '01003002', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (47, '01003', '01003003', NULL, NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (48, '01004', '01004001', '01004001', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (49, '01004', '01004001', '01004002', NULL);
+
+INSERT INTO Relacion (IDRelacion, CodigoOrganizacion, CodigoRecinto, CodigoAnimal, CodigoPersonal)
+VALUES (50, '01005', '01005001', NULL, NULL);
