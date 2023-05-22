@@ -1,3 +1,9 @@
+CodigoPersonal '01001005'
+CodigoMantenimientoRecinto '01001001001'
+
+CodigoPersonal '01001005'
+CodigoMantenimientoRecinto '01001002'
+
 CodigoPersonal '01003006'
 CodigoMantenimientoRecinto '01003001001'
 

@@ -1,3 +1,9 @@
+CodigoPersonal '01001004'
+
+CodigoPersonal '01002003'
+
 CodigoPersonal '01003005'
 
 CodigoPersonal '01004003'
+
+CodigoPersonal '01005002'

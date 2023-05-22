@@ -1,0 +1,260 @@
+IDRelacion 1
+CodigoOrganizacion '01001'
+CodigoRecinto '01001001'
+CodigoAnimal NULL
+CodigoPersonal NULL
+
+IDRelacion 2
+CodigoOrganizacion '01001'
+CodigoRecinto '01001002'
+CodigoAnimal NULL
+CodigoPersonal NULL
+
+IDRelacion 3
+CodigoOrganizacion '01002'
+CodigoRecinto '01002001'
+CodigoAnimal NULL
+CodigoPersonal NULL
+
+IDRelacion 4
+CodigoOrganizacion '01003'
+CodigoRecinto '01003001'
+CodigoAnimal NULL
+CodigoPersonal NULL
+
+IDRelacion 5
+CodigoOrganizacion '01003'
+CodigoRecinto '01003002'
+CodigoAnimal NULL
+CodigoPersonal NULL
+
+IDRelacion 6
+CodigoOrganizacion '01003'
+CodigoRecinto '01003003'
+CodigoAnimal NULL
+CodigoPersonal NULL
+
+IDRelacion 7
+CodigoOrganizacion '01004'
+CodigoRecinto '01004001'
+CodigoAnimal NULL
+CodigoPersonal NULL
+
+IDRelacion 8
+CodigoOrganizacion '01004'
+CodigoRecinto '01004002'
+CodigoAnimal NULL
+CodigoPersonal NULL
+
+IDRelacion 9
+CodigoOrganizacion '01005'
+CodigoRecinto '01005001'
+CodigoAnimal NULL
+CodigoPersonal NULL
+
+IDRelacion 10
+CodigoOrganizacion '01001'
+CodigoRecinto NULL
+CodigoAnimal '01001001'
+CodigoPersonal NULL
+
+IDRelacion 11
+CodigoOrganizacion '01001'
+CodigoRecinto NULL
+CodigoAnimal '01001002'
+CodigoPersonal NULL
+
+IDRelacion 12
+CodigoOrganizacion '01001'
+CodigoRecinto NULL
+CodigoAnimal '01001003'
+CodigoPersonal NULL
+
+IDRelacion 13
+CodigoOrganizacion '01002'
+CodigoRecinto NULL
+CodigoAnimal '01002001'
+CodigoPersonal NULL
+
+IDRelacion 14
+CodigoOrganizacion '01003'
+CodigoRecinto NULL
+CodigoAnimal '01003001'
+CodigoPersonal NULL
+
+IDRelacion 15
+CodigoOrganizacion '01003'
+CodigoRecinto NULL
+CodigoAnimal '01003002'
+CodigoPersonal NULL
+
+IDRelacion 16
+CodigoOrganizacion '01004'
+CodigoRecinto NULL
+CodigoAnimal '01004001'
+CodigoPersonal NULL
+
+IDRelacion 17
+CodigoOrganizacion '01004'
+CodigoRecinto NULL
+CodigoAnimal '01004002'
+CodigoPersonal NULL
+
+IDRelacion 18
+CodigoOrganizacion '01001'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01001001'
+
+IDRelacion 19
+CodigoOrganizacion '01001'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01001002'
+
+IDRelacion 20
+CodigoOrganizacion '01001'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01001003'
+
+IDRelacion 21
+CodigoOrganizacion '01001'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01001004'
+
+IDRelacion 22
+CodigoOrganizacion '01001'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01001005'
+
+IDRelacion 23
+CodigoOrganizacion '01002'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01002001'
+
+IDRelacion 24
+CodigoOrganizacion '01002'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01002002'
+
+IDRelacion 25
+CodigoOrganizacion '01002'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01002003'
+
+IDRelacion 26
+CodigoOrganizacion '01002'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01002004'
+
+IDRelacion 27
+CodigoOrganizacion '01003'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01003001'
+
+IDRelacion 28
+CodigoOrganizacion '01003'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01003002'
+
+IDRelacion 29
+CodigoOrganizacion '01003'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01003003'
+
+IDRelacion 30
+CodigoOrganizacion '01003'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01003004'
+
+IDRelacion 31
+CodigoOrganizacion '01003'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01003005'
+
+IDRelacion 32
+CodigoOrganizacion '01003'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01003006'
+
+IDRelacion 33
+CodigoOrganizacion '01004'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01004001'
+
+IDRelacion 34
+CodigoOrganizacion '01004'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01004002'
+
+IDRelacion 35
+CodigoOrganizacion '01004'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01004003'
+
+IDRelacion 36
+CodigoOrganizacion '01004'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01004004'
+
+IDRelacion 37
+CodigoOrganizacion '01005'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01005001'
+
+IDRelacion 38
+CodigoOrganizacion '01005'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01005002'
+
+IDRelacion 39
+CodigoOrganizacion '01005'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01005003'
+
+IDRelacion 40
+CodigoOrganizacion '01005'
+CodigoRecinto NULL
+CodigoAnimal NULL
+CodigoPersonal '01005003'
+
+animales
+01001001
+01001002
+01001003
+01002001
+01003001
+01003002
+01004001
+01004002
+
+recintos
+01001001
+01001002
+01002001
+01003001
+01003002
+01003003
+01004001
+01004002
+01005001

@@ -27,8 +27,8 @@ Recinto 1 Zoo 5 - 1 Mantenimiento
 Zoo 3 Recinto 2 - No animales
 Zoo 5 Recinto 1 - No Animales
 
-Zoo 1 - 3 personales - 1: ExpNutAnim - 2: MedVet	- 3: MedVet
-Zoo 2 - 2 personales - 1: ExpNutAnim - 2: MedVet
-Zoo 3 - 6 personales - 1: ExpNutAnim - 2: ExpNutAnim	- 3: MedVet
-Zoo 4 - 3 personales - 1: ExpNutAnim - 2: MedVet	- 3:
-Zoo 5 - 1 personal   - 1: ExpNutAnim
+Zoo 1 - 3 personales - 1: ExpNutAnim - 2: MedVet	- 3: MedVet	- 4: Cuid#	- 5: Ope#
+Zoo 2 - 2 personales - 1: ExpNutAnim - 2: MedVet	- 3: Cuid#	- 4: Ope#
+Zoo 3 - 6 personales - 1: ExpNutAnim - 2: ExpNutAnim	- 3: MedVet	- 4: MedVet	- 5: Cuid	- 6: Operado
+Zoo 4 - 3 personales - 1: ExpNutAnim - 2: MedVet	- 3: Cuida	- 4: Ope#
+Zoo 5 - 1 personal   - 1: ExpNutAnim - 2: Cuid#		- 3: Ope#
