@@ -405,6 +405,10 @@ VALUES ('01004001', 'F', 'Esterilizado', '2022-02-04', '2023-06-18', 'Uakari', '
 INSERT INTO Animal (CodigoAnimal, Sexo, EstadoEsterilizacion, UltimoControlMedico, ProximoControlMedico, NombreEspecie, CodigoRecinto)
 VALUES ('01004002', 'F', 'Esterilizado', '2022-10-08', '2023-05-21', 'Zarigüeya', '01005001');
 
+
+
+
+
 INSERT INTO Personal (CodigoPersonal, Nombre, PrimerApellido, SegundoApellido, FechaNacimiento, FechaContratacion, RUT, Telefono, Email, Ciudad, Calle, Numero)
 VALUES ('01001001', 'Victoria', 'Baker', 'Davis', '2001-03-26', '2020-12-01', '41602393-3', '15409355779', 'johndoe1234@gmail.com', 'Coelemu', 'Avenida Fuerza', 92);
 
@@ -471,6 +475,12 @@ VALUES ('01005002', 'Michael', 'Thompson', 'Wright', '1995-2-12', '2016-8-6', '4
 INSERT INTO Personal (CodigoPersonal, Nombre, PrimerApellido, SegundoApellido, FechaNacimiento, FechaContratacion, RUT, Telefono, Email, Ciudad, Calle, Numero)
 VALUES ('01005003', 'Evelyn', 'Patel', 'Gonzalez', '1997-1-23', '2007-1-23', '0232938-5', '38663914567', 'kellygreen2222@gmail.com', 'La Cruz', 'Carrera Amistad', 338);
 
+INSERT INTO Personal (CodigoPersonal, Nombre, PrimerApellido, SegundoApellido, FechaNacimiento, FechaContratacion, RUT, Telefono, Email, Ciudad, Calle, Numero)
+VALUES ('01005004', 'James', 'Rodriguez', 'Chen', '2000-4-6', '2014-1-10', '9657356-4', '76146564677', 'williamtaylor1111@yahoo.com', 'Coyhaique', 'AvenidaAventura', 307);
+
+
+
+
 INSERT INTO ExpertoNutricionAnimal (CodigoPersonal)
 VALUES ('01001001');
 
@@ -488,6 +498,9 @@ VALUES ('01004001');
 
 INSERT INTO ExpertoNutricionAnimal (CodigoPersonal)
 VALUES ('01005001');
+
+
+
 
 INSERT INTO Regula (CodigoPersonal, CodigoAlimento)
 VALUES ('01001001', '02001');
@@ -522,6 +535,9 @@ VALUES ('01004001', '02010');
 INSERT INTO Regula (CodigoPersonal, CodigoAlimento)
 VALUES ('01005001', '02009');
 
+
+
+
 INSERT INTO MedicoVeterinario (CodigoPersonal)
 VALUES ('01001002');
 
@@ -541,7 +557,11 @@ INSERT INTO MedicoVeterinario (CodigoPersonal)
 VALUES ('01004002');
 
 INSERT INTO MedicoVeterinario (CodigoPersonal)
-VALUES ('01005002');
+VALUES ('01005004');
+
+
+
+
 
 INSERT INTO Controla (CodigoPersonal, CodigoMedicamento)
 VALUES ('01001002', '01001');
@@ -567,6 +587,39 @@ VALUES ('01004002', '01002');
 INSERT INTO Controla (CodigoPersonal, CodigoMedicamento)
 VALUES ('01004002', '01006');
 
+
+
+
+INSERT INTO Trata (CodigoPersonal, CodigoAnimal)
+VALUES ('01001002', '01001001');
+
+INSERT INTO Trata (CodigoPersonal, CodigoAnimal)
+VALUES ('01001002', '01001002');
+
+INSERT INTO Trata (CodigoPersonal, CodigoAnimal)
+VALUES ('01001002', '01001003');
+
+INSERT INTO Trata (CodigoPersonal, CodigoAnimal)
+VALUES ('01001003', '01001002');
+
+INSERT INTO Trata (CodigoPersonal, CodigoAnimal)
+VALUES ('01002002', '01002001');
+
+INSERT INTO Trata (CodigoPersonal, CodigoAnimal)
+VALUES ('01003003', '01003001');
+
+INSERT INTO Trata (CodigoPersonal, CodigoAnimal)
+VALUES ('01003004', '01003002');
+
+INSERT INTO Trata (CodigoPersonal, CodigoAnimal)
+VALUES ('01004002', '01004001');
+
+INSERT INTO Trata (CodigoPersonal, CodigoAnimal)
+VALUES ('01004002', '01004002');
+
+
+
+
 INSERT INTO CuidadorAnimales (CodigoPersonal)
 VALUES ('01001004');
 
@@ -581,6 +634,9 @@ VALUES ('01004003');
 
 INSERT INTO CuidadorAnimales (CodigoPersonal)
 VALUES ('01005002');
+
+
+
 
 INSERT INTO Conserva (CodigoPersonal, CodigoRecinto)
 VALUES ('01003005', '01003001');
@@ -597,6 +653,9 @@ VALUES ('01004003', '01004001');
 INSERT INTO Conserva (CodigoPersonal, CodigoRecinto)
 VALUES ('01004003', '01004002');
 
+
+
+
 INSERT INTO Cuida (CodigoPersonal, CodigoAnimal)
 VALUES ('01001004', '01001001');
 
@@ -611,6 +670,9 @@ VALUES ('01004003', '01004001');
 
 INSERT INTO Cuida (CodigoPersonal, CodigoAnimal)
 VALUES ('01004003', '01004002');
+
+
+
 
 INSERT INTO OperadorEquiposVarios (CodigoPersonal)
 VALUES ('01001005');
@@ -627,6 +689,9 @@ VALUES ('01004004');
 INSERT INTO OperadorEquiposVarios (CodigoPersonal)
 VALUES ('01005003');
 
+
+
+
 INSERT INTO Brinda (CodigoPersonal, CodigoMantenimientoRecinto)
 VALUES ('01001005', '01001001001');
 
@@ -641,4 +706,3 @@ VALUES ('01003006', '01003002001');
 
 INSERT INTO Brinda (CodigoPersonal, CodigoMantenimientoRecinto)
 VALUES ('01003006', '01003003001');
-
